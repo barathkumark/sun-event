@@ -45,6 +45,19 @@
     font-weight: 500;
 }
 
+.sub-desc {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.hint-text {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: rgb(158, 158, 158);
+    text-align: left;
+}
+
 .se-border-bottom {
     border-bottom: 1px solid #dee2e6!important;
 }
@@ -52,6 +65,31 @@
 .gpay-icon {
     max-width: 65px;
     max-height: 55px;
+}
+
+.md-form {
+    position: relative;
+    margin-top: 0rem!important;
+    margin-bottom: 0rem!important;
+}
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.footer-bg {
+    background-color: #f5da5f;
 }
 
 .ScrollToTop {
