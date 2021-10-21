@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&display=swap');
+
+/* .body-bg {
+    background-color: #faf5f0;
+} */
+
+.navbar-font {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+.sun-event {
+    font-family: 'Acme', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: #00b0ff;
+}
+
+
+.main-heading {
+    font-family: 'Cinzel', serif;
+    font-size: 26px;
+    font-weight: 500;
+    color: #364a63;
+}
+
+.f-25px {
+    font-size: 25px!important;
+}
+
+.banner-desc {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #364a63;
+}
+
+.main-desc {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #364a63;
+}
+
+.sub-desc {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8094ae;
+}
+
+.hint-text {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #8094ae;
+    text-align: left;
+}
+
+.se-border-bottom {
+    border-bottom: 1px solid #dee2e6!important;
+}
+
+.icon-color {
+    color: #33b5e5;
+}
+
+.gpay-icon {
+    max-width: 65px;
+    max-height: 55px;
+}
+
+.md-form {
+    position: relative;
+    margin-top: 0rem!important;
+    margin-bottom: 0rem!important;
+}
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.h-400px {
+    height: 400px;
+}
+
+.map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.footer-bg {
+    background-color: #eaf2fc;
+}
+
+.ScrollToTop {
+    text-decoration: none;
+    position: fixed;
+    outline: none;
+    bottom: 10px;
+    right: 10px;
+}
+
+
+@media (max-width: 430px) {
+ .carousel-img-h {
+     height: 250px;
+ }
+ .border-margin {
+    margin-left: 6rem;
+    margin-right: 6rem;
+ }
+}
+
+@media (min-width: 767px) {
+    .border-margin {
+       margin-left: 16rem;
+       margin-right: 16rem;
+    }
+}
+
+@media (min-width: 1023px) {
+    .border-margin {
+       margin-left: 23.5rem;
+       margin-right: 23.5rem;
+    }
+}
+
+@media (min-width: 1300px) {
+    .border-margin {
+       margin-left: 29rem;
+       margin-right: 29rem;
+    }
+}
