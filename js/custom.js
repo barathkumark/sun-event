@@ -11,7 +11,12 @@ $(window).scroll(function(){
 
 // When the user clicks on the button, scroll to the top of the document
 
-function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-  }
+$(document).scroll(function () {
+    var y = $(this).scrollTop();
+    if (y > 800) {
+        $('.ScrollToTop').fadeIn();
+    } else {
+        $('.ScrollToTop').fadeOut();
+    }
+
+});
